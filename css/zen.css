@@ -1,0 +1,54 @@
+
+
+ #map {
+        height: 61%;
+        width: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      
+      .modoru_btn {
+    position: relative;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #000000;
+    background: #fd9535;/*色*/
+    border-radius: 4px;/*角の丸み*/
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), inset 0 -10px 0 rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    border: solid 2px #b8860b;/*線色*/
+}
+
+.modoru_btn:active {/*押したとき*/
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.30);
+}
+      
+      
+      
+      .uemoji {/*親div*/
+  position: relative;/*相対配置*/
+  }
+
+.uemoji p {
+  position: absolute;/*絶対配置*/
+  color: white;/*文字は白に*/
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+ 
+  }
+
+.uemoji img {
+  width: 17%;
+  }
