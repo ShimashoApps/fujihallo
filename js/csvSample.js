@@ -4,7 +4,7 @@ $(function() {
     var insert = '';
     var urlParam = location.search.substring(1);
     $.ajax({
-        url: './data/huji44.csv',
+        url: './data/hujiharo20.csv',
         success: function(data) {
             
 //             // csvを配列に格納
@@ -45,8 +45,8 @@ $(function() {
              insert5='<h4>&nbsp;&nbsp;&nbsp;&nbsp;営業時間</h4>'+csvList[Number(urlParam)][4]+'</br>';
              insert6='<h4>&nbsp;&nbsp;&nbsp;&nbsp;定休日</h4>'+csvList[Number(urlParam)][5]+'</br>';
              insert7='<h4>&nbsp;&nbsp;&nbsp;&nbsp;TEL</h4><a href="tel:'+csvList[Number(urlParam)][6]+'">'+csvList[Number(urlParam)][6]+'</a></br>';
-             insert8='<h4>&nbsp;&nbsp;&nbsp;&nbsp;HPへ</h4><a href="'+csvList[Number(urlParam)][8]+'">'+csvList[Number(urlParam)][8]+'</a></br>';
-             insert9='<h4></h4><!--'+csvList[Number(urlParam)][8]+'</br>-->';
+             insert8='<h4>ファックス</h4><a href="'+csvList[Number(urlParam)][7]+'">'+csvList[Number(urlParam)][7]+'</a></br>';
+             insert9='<h4>&nbsp;&nbsp;&nbsp;&nbsp;HPへ</h4><a href="'+csvList[Number(urlParam)][8]+'">'+csvList[Number(urlParam)][8]+'</a></br>';
              insert10='<h4>&nbsp;&nbsp;&nbsp;&nbsp;クーポンの有無</h4>'+csvList[Number(urlParam)][9]+'</br>';
              insert11='<h4>&nbsp;&nbsp;&nbsp;&nbsp;コメント</h4>'+csvList[Number(urlParam)][10]+'</br>';
              // 追加するパターン
