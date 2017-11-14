@@ -4,7 +4,7 @@ $(function() {
     var insert = '';
     var urlParam = location.search.substring(1);
     $.ajax({
-        url: './data/hujiharo20.csv',
+        url: './data/hujiharo24.csv',
         success: function(data) {
             
 //             // csvを配列に格納
